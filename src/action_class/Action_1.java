@@ -19,6 +19,7 @@ public class Action_1
 		WebDriver driver=new ChromeDriver();
 		
 		driver.get("https://kite.zerodha.com/");
+		//bharati yawalkar
 		
 		//driver.manage().window().maximize();   DF4359
 		Thread.sleep(2000);
