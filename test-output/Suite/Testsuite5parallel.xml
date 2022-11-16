@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Multibrowser testing">
+<test name="chrome">
+<parameter name="browsername" value="chrome"></parameter>
+<classes>
+<class name="multibrowsertesting.Sample1">
+</class>
+</classes>
+
+</test>
+<test name="firefox">
+<parameter name="browsername" value="firefox"></parameter>
+<classes>
+<class name="multibrowsertesting.Sample1">
+
+</class>
+
+</classes>
+
+</test>
+
+
+</suite>
+
+
+

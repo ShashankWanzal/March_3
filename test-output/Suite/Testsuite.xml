@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="disabling method suite">
+<test  name="test">
+
+<classes>
+<class name="testNG2.Sample3">
+
+<methods>
+ 	<include name="test1" />
+ 	<exclude name="test2" />
+ 	<include name="test3" />
+ 	<exclude name="test4" />
+ 	<include name="test5" />
+ 	<exclude name="test6" />
+ 	
+</methods>
+</class>
+</classes>
+
+</test>
+</suite>

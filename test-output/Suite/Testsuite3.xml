@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="parameter">
+<test name="test">
+<parameter name="name" value="Hi class">
+<classes>
+<class name="testNG2.Sample6">
+</class>
+
+
+</classes>
+
+
+</parameter>
+
+
+
+
+
+
+
+</test>
+
+</suite>
